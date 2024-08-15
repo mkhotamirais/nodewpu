@@ -171,7 +171,7 @@ app.post(
 
 app.use("/", (req, res) => {
   res.status(404);
-  res.send("<h1>404</h1>");
+  res.send("<h1>404 Not found</h1>");
 });
 
 app.listen(3000, () => console.log(`App is listening to port ${3000}`));
